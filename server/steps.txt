@@ -1,0 +1,13 @@
+pip install django
+django-admin startproject myproject
+cd myproject
+django-admin startapp people
+pip install djangorestframework
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'people',
+]
+
+
